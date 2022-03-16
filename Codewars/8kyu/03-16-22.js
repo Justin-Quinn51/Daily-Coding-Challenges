@@ -30,3 +30,5 @@ function opposite(number) {
 function removeChar(str){
   return str.slice(1, -1)
 };
+
+
