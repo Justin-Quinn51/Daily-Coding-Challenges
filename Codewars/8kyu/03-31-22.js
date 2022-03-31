@@ -4,9 +4,9 @@
 
 // Solution
 
-// function grow(x){
-//     return x.reduce( (acc, c) => acc * c, 1)
-//   }
+function grow(x){
+    return x.reduce( (acc, c) => acc * c, 1)
+  }
 
 // Arrow function refactor
 
@@ -18,9 +18,11 @@ const grow = x => x.reduce( (acc, c) => acc * c, 1)
 
 // Solution
 
-// function stringToArray(string){
-//     return string.split(' ')
-//   }
+function stringToArray(string){
+    return string.split(' ')
+  }
+
+// Arrow Function Refactor
 
 const stringToArray = string => string.split(' ')
 
