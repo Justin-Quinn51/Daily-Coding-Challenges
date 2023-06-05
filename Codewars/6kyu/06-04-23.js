@@ -10,8 +10,11 @@ function persistence(num) {
   let count = 0;
   num = num.toString();
   while (num.length > 1) {
-    num = num.split('').reduce((acc, c) => +acc * +c).toString();
+    num = num
+      .split('')
+      .reduce((acc, c) => +acc * +c)
+      .toString();
     count++;
   }
-  return count
+  return count;
 }
